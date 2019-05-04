@@ -10,7 +10,7 @@ const {
 
 const log = msg => console.log('\x1b[33m%s\x1b[0m', '[Denomon]', msg)
 const runArgs = name => ({
-    args: ['deno', '-A', name]
+    args: ['deno','run', '-A', name]
 });
 
 async function main() {
