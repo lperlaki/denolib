@@ -2,15 +2,22 @@
 My deno Libs
 
 
+# Libs
+
+| src | Name | Description |
+|--|--|--|
+| https://lperlaki.me/deno/denomon.js | [Denomon](#Denomon) |
+
+
 ## Denomon
 
 ### Use
 
-`deno -A https://raw.githubusercontent.com/lperlaki/deno/master/denomon.js src/main.js`
+`deno run -A https://lperlaki.me/deno/denomon.js src/main.js`
 
 ### Install Bash
 
-`echo "function denomon() { deno run -A https://lperlaki.github.io/deno/denomon.js \$@;}" >> ~/.bashrc && source ~/.bashrc`
+`echo "function denomon() { deno run -A https://lperlaki.me/deno/denomon.js \$@;}" >> ~/.bashrc && source ~/.bashrc`
 
 #### Use
 
