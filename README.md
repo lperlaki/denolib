@@ -10,7 +10,7 @@ My deno Libs
 
 ### Install Bash
 
-`echo "function denomon() { deno -A https://raw.githubusercontent.com/lperlaki/deno/master/denomon.js \$@;}" >> ~/.bashrc && source ~/.bashrc`
+`echo "function denomon() { deno run -A https://lperlaki.github.io/deno/denomon.js \$@;}" >> ~/.bashrc && source ~/.bashrc`
 
 #### Use
 
