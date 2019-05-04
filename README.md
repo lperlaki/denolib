@@ -4,8 +4,8 @@ My deno Libs
 
 # Libs
 
-| src | Name | Description |
-|--|--|--|
+| src | Name |
+|--|--|
 | https://lperlaki.me/deno/denomon.js | [Denomon](#Denomon) |
 
 
