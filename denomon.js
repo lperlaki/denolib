@@ -1,4 +1,4 @@
-#!/usr/bin/env den run -A
+#!/usr/bin/env deno run -A
 
 import watch from './watch.ts';
 
