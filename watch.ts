@@ -327,7 +327,6 @@ async function statTraverse(path: string): Promise<any> {
         const targetPath = await readlink(path);
         return statTraverse(targetPath);
     } else {
-        info.path = info.path || path;
         return info;
     }
 }
@@ -337,7 +336,6 @@ function statTraverseSync(path: string): any {
         const targetPath = readlinkSync(path);
         return statTraverseSync(targetPath);
     } else {
-        info.path = info.path || path;
         return info;
     }
 }
