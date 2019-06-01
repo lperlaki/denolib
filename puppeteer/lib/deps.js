@@ -1,0 +1,1 @@
+export default {os: undefined, path: undefined, http: undefined, https: undefined, URL: undefined}
