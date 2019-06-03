@@ -30,7 +30,7 @@ const {
   Events
 } = require('./Events');
 
-class Browser extends EventEmitter {
+class  Browser extends EventEmitter {
   /**
    * @param {!Puppeteer.Connection} connection
    * @param {!Array<string>} contextIds

@@ -1,5 +1,8 @@
 #!/usr/bin/env deno run -A
 
+import {
+    yellow
+} from "https://deno.land/std/colors/mod.ts";
 import watch from './watch.ts';
 
 const {
@@ -8,9 +11,9 @@ const {
 } = Deno;
 
 
-const log = msg => console.log('\x1b[33m%s\x1b[0m', '[Denomon]', msg)
+const log = msg => console.log(yellow('[Denomon]'), msg)
 const runArgs = name => ({
-    args: ['deno','run', '-A', name]
+    args: ['deno', 'run', '-A', name]
 });
 
 async function main() {

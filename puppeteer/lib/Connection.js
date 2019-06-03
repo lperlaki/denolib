@@ -72,7 +72,7 @@ class Connection extends EventEmitter {
    * @param {!Object=} params
    * @return {!Promise<?Object>}
    */
-  send(method, params = {}) {
+   send(method, params = {}) {
     const id = this._rawSend({
       method,
       params
