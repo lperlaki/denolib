@@ -15,9 +15,9 @@ My deno Libs
 
 `deno run -A https://lperlaki.me/denolib/denomon.js src/main.js`
 
-### Install Bash
+### Install
 
-`echo "function denomon() { deno run -A https://lperlaki.me/denolib/denomon.js \$@;}" >> ~/.bashrc && source ~/.bashrc`
+`deno install denomon https://lperlaki.me/denolib/denomon.js -A`
 
 #### Use
 
